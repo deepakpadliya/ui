@@ -6,7 +6,8 @@
     "jsx": "react",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node","@types/react","@types/react-dom","@types/jest","@storybook/types"]
   },
-  "include": ["stories/**/*"]
+  "include": ["src/**/*"]
 }

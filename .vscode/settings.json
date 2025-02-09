@@ -1,0 +1,7 @@
+{
+  "typescript.tsserver.pluginPaths": ["node_modules/@storybook/types"],
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.suggest.preview": true
+}
