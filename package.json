@@ -1,5 +1,5 @@
 {
-  "name": "@dkp/ui",
+  "name": "@dkp31/ui",
   "version": "0.0.1",
   "scripts": {
     "rollup": "rollup -c",
@@ -50,6 +50,6 @@
   ],
   "types": "dist/types/index.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/deepakpadliya"
+    "registry": "https://npm.pkg.github.com"
   }
 }
