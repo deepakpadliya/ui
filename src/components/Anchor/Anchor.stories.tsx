@@ -8,17 +8,17 @@ export default {
   argTypes:{
     href:{
       control: 'text'
-    },
-    label:{
-      control: 'text'
     }
   },
-  args:{}
+  args:{
+    href: 'https://www.google.com',
+    children: 'Google'
+  }
 }
 
 export const Demo = {
   args:{
     href: 'https://www.google.com',
-    label: 'Google'
-  }
+    children: 'Google'
+  },
 }

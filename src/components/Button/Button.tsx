@@ -1,20 +1,17 @@
-import React from 'react';
-
-import './button.scss';
-
-interface ButtonProps {
+import React, { ReactNode } from 'react';
+export interface ButtonProps {
   varient?: string;
   backgroundColor?: string;
   size?:string;
-  label?: string;
+  children: ReactNode;
   onClick?: () => void;
 }
 
-export const Button = ({
+const Button = ({
   backgroundColor,
   varient,
   size,
-  label,
+  children,
   ...props
 }:ButtonProps) => {
   const mode = `button--${varient}`;
@@ -25,7 +22,8 @@ export const Button = ({
       style={backgroundColor ? { backgroundColor } : undefined}
       {...props}
     >
-      {label}
+      {children}
     </button>
   );
 };
+export default Button;

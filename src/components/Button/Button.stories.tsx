@@ -1,6 +1,6 @@
 import { fn } from "@storybook/test";
 
-import { Button } from "./Button";
+import Button, { ButtonProps } from "./Button";
 
 export default {
   title: "components/Button",
@@ -19,12 +19,12 @@ export default {
       inline: true
     },
   },
-  args: { onClick: fn() },
+  args: { children: "Google", onClick: fn() },
 };
 
 export const Demo = {
   args: {
     size: "large",
-    label: "Button",
+    children: "Button",
   },
 };
